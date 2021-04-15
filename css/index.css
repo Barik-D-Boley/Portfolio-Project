@@ -31,6 +31,10 @@ body {
   src: url(fonts/pacifico/Pacifico.ttf);
 }
 
+strong {
+  font-weight: 700;
+}
+
 #brandName {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -43,8 +47,64 @@ body {
 
 #profileBox {
   background-color: #ffffff;
+  font-family: oswaldRegular;
+}
+
+#westMec {
+  color: #f8941c;
+  text-decoration: none;
+}
+
+#phoneIcon {
+  width: 2.4rem;
+  height: auto;
+}
+
+#emailIcon {
+  width: 2.4rem;
+  height: auto;
+}
+
+.blandLink {
+  color: gray;
+  text-decoration: none;
+}
+
+.blandLink:hover {
+  color: #505050;
+}
+
+#title {
+  font-size: 4rem;
+}
+
+#caption {
+  font-size: 2.5rem;
+}
+
+.indexContent {
+  font-size: 1.5rem;
+  color: gray;
 }
 
 .rounded-3 {
   border-radius: 1.5rem !important;
 }
+
+.linkedIn {
+  width: 1rem;
+  height: auto;
+  background-image: url(../images/linkedin.png) no-repeat;
+}
+
+.linkedIn:hover {
+  background-image: url(../images/linkedinHover.png) no-repeat;
+}
+
+/*
+.steam {
+
+}
+.discord {
+
+}*/
