@@ -50,6 +50,9 @@ strong {
 #westMec {
     color: #f8941c;
     text-decoration: none;
+    &:hover {
+        color: #f8741c;
+    }
 }
 #phoneIcon {
     width: 2.4rem;
@@ -78,23 +81,18 @@ strong {
     color: gray;
 }
 
-
 .rounded-3 {
     border-radius: 1.5rem !important;
 }
 
-.linkedIn {
-    width: 1rem;
-    height: auto;
-    background-image: url(../images/linkedin.png) no-repeat;
-    &:hover {
-        background-image: url(../images/linkedinHover.png) no-repeat;
-    }
+//Resume Page
+#resume {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
 }
-/*
-.steam {
-
+.resumeTitle {
+    font-weight: 600;
 }
-.discord {
-
-}*/
+.resumeSubtitle {
+    color: orangered;
+}

@@ -55,6 +55,10 @@ strong {
   text-decoration: none;
 }
 
+#westMec:hover {
+  color: #f8741c;
+}
+
 #phoneIcon {
   width: 2.4rem;
   height: auto;
@@ -91,20 +95,16 @@ strong {
   border-radius: 1.5rem !important;
 }
 
-.linkedIn {
-  width: 1rem;
-  height: auto;
-  background-image: url(../images/linkedin.png) no-repeat;
+#resume {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
 }
 
-.linkedIn:hover {
-  background-image: url(../images/linkedinHover.png) no-repeat;
+.resumeTitle {
+  font-weight: 600;
 }
 
-/*
-.steam {
-
+.resumeSubtitle {
+  color: orangered;
 }
-.discord {
-
-}*/
+/*# sourceMappingURL=index.css.map */
