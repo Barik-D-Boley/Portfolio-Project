@@ -7,15 +7,29 @@ body {
     background-size: cover;
 }
 footer {
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
+    color: white;
     border: 1px solid black;
     text-align: center;
+    position: relative;
+    top: 0;
+}
+#contactUs {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: rgb(214, 214, 214);
+    }
 }
 strong {
     font-weight: 700;
 }
 .rounded-3 {
     border-radius: 1.5rem !important;
+}
+.bootstrapBox {
+    background-color: #ffffff;
+    font-family: oswaldRegular;
 }
 .blandLink {
     color: gray;
@@ -55,10 +69,6 @@ strong {
 
 /* Homepage */
 //Profile Box
-#profileBox {
-    background-color: #ffffff;
-    font-family: oswaldRegular;
-}
 #westMec {
     color: #f8941c;
     text-decoration: none;
@@ -85,15 +95,12 @@ strong {
     color: gray;
 }
 //About Myself
-#aboutMe {
-    background-color: white;
+.aboutMeContent {
+    font-size: 1.3rem;
+    color: gray;
 }
 
 /* Resume Page */
-#resume {
-    font-family: oswaldRegular;
-    background-color: white;
-}
 .resumeTitle {
     font-weight: 600;
 }
@@ -102,10 +109,6 @@ strong {
 }
 
 /* Gallery Page */
-#gallery {
-    font-family: oswaldRegular;
-    background-color: white;
-}
 .captionBackground {
     background-color: rgba(175, 175, 175, .7);
 }
