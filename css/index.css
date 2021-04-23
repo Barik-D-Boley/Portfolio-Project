@@ -1,3 +1,4 @@
+/* Generals */
 body {
   margin: 0;
   background-color: #8a2be2;
@@ -6,9 +7,33 @@ body {
   background-size: cover;
 }
 
+footer {
+  background-color: gray;
+  border: 1px solid black;
+  text-align: center;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.rounded-3 {
+  border-radius: 1.5rem !important;
+}
+
+.blandLink {
+  color: gray;
+  text-decoration: none;
+}
+
+.blandLink:hover {
+  color: #505050;
+}
+
+/* Fonts */
 @font-face {
   font-family: lobster;
-  src: url(fonts/lobster/Lobster.otf);
+  src: url(fonts/lobster/Lobster.ttf);
 }
 
 @font-face {
@@ -26,15 +51,7 @@ body {
   src: url(fonts/oswald/Oswald-Regular.ttf);
 }
 
-@font-face {
-  font-family: pacifico;
-  src: url(fonts/pacifico/Pacifico.ttf);
-}
-
-strong {
-  font-weight: 700;
-}
-
+/* Navbar Stuff */
 #brandName {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,6 +62,7 @@ strong {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Homepage */
 #profileBox {
   background-color: #ffffff;
   font-family: oswaldRegular;
@@ -69,20 +87,11 @@ strong {
   height: auto;
 }
 
-.blandLink {
-  color: gray;
-  text-decoration: none;
-}
-
-.blandLink:hover {
-  color: #505050;
-}
-
 #title {
   font-size: 4rem;
 }
 
-#caption {
+#subtitle {
   font-size: 2.5rem;
 }
 
@@ -91,12 +100,13 @@ strong {
   color: gray;
 }
 
-.rounded-3 {
-  border-radius: 1.5rem !important;
+#aboutMe {
+  background-color: white;
 }
 
+/* Resume Page */
 #resume {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: oswaldRegular;
   background-color: white;
 }
 
@@ -108,10 +118,24 @@ strong {
   color: orangered;
 }
 
+/* Gallery Page */
+#gallery {
+  font-family: oswaldRegular;
+  background-color: white;
+}
+
 .captionBackground {
   background-color: rgba(175, 175, 175, 0.7);
 }
 
 .caption {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
   font-family: lobster;
 }
+
+.caption:hover {
+  color: #585858;
+}
+/*# sourceMappingURL=index.css.map */
