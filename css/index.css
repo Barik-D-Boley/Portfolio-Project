@@ -107,4 +107,11 @@ strong {
 .resumeSubtitle {
   color: orangered;
 }
-/*# sourceMappingURL=index.css.map */
+
+.captionBackground {
+  background-color: rgba(175, 175, 175, 0.7);
+}
+
+.caption {
+  font-family: lobster;
+}

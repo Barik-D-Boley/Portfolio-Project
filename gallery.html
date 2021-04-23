@@ -10,96 +10,85 @@
 </head>
 <body>
     <div class="container-fluid mt-3">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-            <div class="container-fluid">
-                <a class="navbar-brand" id="brandName" href="index.html">Barik Boley</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="qualifications.html">Qualifications</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="resume.html">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="skills.html">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="workHistory.html">Past Employment</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="gallery.html">Project Gallery</a>
-                        </li>
-                    </ul>   
-                </div>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-main rounded">
+            <div class="container-fluid mx-5 mt-4 mb-5">
+                <a class="navbar-brand" id="brandName" href="index.html"><strong>Barik Boley</strong></a>
+                <span class="float-end">
+                    <div id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item"></li>
+                                <a class="nav-link float-end" aria-current="page" id="navBarText" href="index.html"><strong>Homepage</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navBarText" href="resume.html"><strong>Resume</strong></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="navBarText" href="qualifications.html"><strong>Qualifications</strong></a>
+                            </li>
+                                <a class="nav-link active" id="navBarText" href="gallery.html"><strong>Project Gallery</strong></a>
+                            </li>
+                        </ul>   
+                    </div>
+                </span>
             </div>
         </nav>
 
-        <div class="row justify-content-center pt-4">
-            <div class="col-sm-9">
-                <!-- Image Carousel -->
-                <div id="gamecubeCarousel" class="carousel carousel-dark slide" data-bs-ride="false" >
-                    <div class="carousel-inner" id="carouselInner">
-                        <div class="carousel-item active">
-                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="images/placeholder.webp" class="d-block w-100" alt="gallery"></a>
-                            <div class="carousel-caption d-none d-md-block" id="caption">
-                                <p class="caption">Panel 1</p>
+        <div class="container-fluid rounded-3 pb-4 mb-5" id="resume" style="max-width: 90rem;">
+            <div class="row justify-content-center pt-4">
+                <div class="col-sm-9">
+                    <!-- Image Carousel -->
+                    <div id="gamecubeCarousel" class="carousel carousel-dark slide" data-bs-ride="false" >
+                        <div class="carousel-inner" id="carouselInner">
+                            <div class="carousel-item active">
+                                <a href="https://schoolpotato.github.io/BootStrapGroupWebsite/" target="_blank"><img src="images/websiteGamecube.PNG" class="d-block w-100" alt="gallery"></a>
+                                <div class="carousel-caption d-none d-md-block captionBackground">
+                                    <p class="caption">Gamcube Website</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://eves259.github.io/Group-Car-Website/gallery.html" target="_blank"><img src="images/websiteCars.PNG" class="d-block w-100" alt="gallery"></a>
+                                <div class="carousel-caption d-none d-md-block captionBackground">
+                                    <p class="caption">Muscle Cars</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://xbarikadex.github.io/Doors/" target="_blank"><img src="images/websiteDoors.PNG" class="d-block w-100" alt="gallery"></a>
+                                <div class="carousel-caption d-none d-md-block captionBackground">
+                                    <p class="caption">Door Fanpage</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="index.html" target="_blank"><img src="images/websitePortfolio.PNG" class="d-block w-100" alt="gallery"></a>
+                                <div class="carousel-caption d-none d-md-block captionBackground">
+                                    <p class="caption">Personal Portfolio</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://xbarikadex.github.io/Dogs/" target="_blank"><img src="images/websiteDogs.PNG" class="d-block w-100" alt="gallery"></a>
+                                <div class="carousel-caption d-none d-md-block captionBackground">
+                                    <p class="caption">Grooming Website</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://xbarikadex.github.io/Fruit-Store/" target="_blank"><img src="images/websiteFruitStore.PNG" class="d-block w-100" alt="gallery"></a>
+                                <div class="carousel-caption d-none d-md-block captionBackground">
+                                    <p class="caption">Fruit Store</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <a href="#" target="_blank"><img src="images/placeholder.webp" class="d-block w-100" alt="gallery"></a>
-                            <div class="carousel-caption d-none d-md-block" id="caption">
-                                <p class="caption">Panel 2</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#" target="_blank"><img src="images/placeholder.webp" class="d-block w-100" alt="gallery"></a>
-                            <div class="carousel-caption d-none d-md-block" id="caption">
-                                <p class="caption">Panel 3</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#" target="_blank"><img src="images/placeholder.webp" class="d-block w-100" alt="gallery"></a>
-                            <div class="carousel-caption d-none d-md-block" id="caption">
-                                <p class="caption">Panel 4</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#" target="_blank"><img src="images/placeholder.webp" class="d-block w-100" alt="gallery"></a>
-                            <div class="carousel-caption d-none d-md-block" id="caption">
-                                <p class="caption">Panel 5</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="#" target="_blank"><img src="images/placeholder.webp" class="d-block w-100" alt="gallery"></a>
-                            <div class="carousel-caption d-none d-md-block" id="caption">
-                                <p class="caption">Panel 6</p>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#gamecubeCarousel"  data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
-
-        <footer>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                
-            </nav>
-        </footer>
     </div>  
 
     <script type="text/javascript" src="js/javascript.js"></script>
