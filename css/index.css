@@ -1,3 +1,4 @@
+/* Variables */
 /* Generals */
 body {
   margin: 0;
@@ -126,6 +127,16 @@ strong {
   color: orangered;
 }
 
+/* Qualifications */
+.qualificationsSubtitles {
+  color: orangered;
+  font-size: 3rem;
+}
+
+.qualificationsText {
+  font-size: 2rem;
+}
+
 /* Gallery Page */
 .captionBackground {
   background-color: rgba(175, 175, 175, 0.7);
@@ -141,4 +152,3 @@ strong {
 .caption:hover {
   color: #585858;
 }
-/*# sourceMappingURL=index.css.map */

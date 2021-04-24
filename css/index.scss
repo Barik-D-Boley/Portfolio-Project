@@ -1,3 +1,6 @@
+/* Variables */
+$west-mec-color: #f8941c;
+
 /* Generals */
 body {
     margin: 0;
@@ -70,7 +73,7 @@ strong {
 /* Homepage */
 //Profile Box
 #westMec {
-    color: #f8941c;
+    color: $west-mec-color;
     text-decoration: none;
     &:hover {
         color: #f8741c;
@@ -106,6 +109,15 @@ strong {
 }
 .resumeSubtitle {
     color: orangered;
+}
+
+/* Qualifications */
+.qualificationsSubtitles {
+    color: orangered;
+    font-size: 3rem;
+}
+.qualificationsText {
+    font-size: 2rem;
 }
 
 /* Gallery Page */
