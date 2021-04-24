@@ -1,12 +1,5 @@
-function replace(page) {
-    window.location=(page + ".html");
-}
-
-function buttonsa() {
-    console.log("Hallo");
-    document.getElementById("buttons").style.color = "red";
-}
-
+/* Changes the Social icons when you hover over them */
+//Linked In
 $("#linkedIn").on("mouseenter", function() {
     $(this).attr("src", "images/linkinHover.png");
 })
@@ -14,6 +7,7 @@ $("#linkedIn").on("mouseleave", function() {
     $(this).attr("src", "images/linkedin.png");
 })
 
+//Steam
 $("#steam").on("mouseenter", function() {
     $(this).attr("src", "images/steamHover.png");
 })
@@ -21,6 +15,7 @@ $("#steam").on("mouseleave", function() {
     $(this).attr("src", "images/steam.png");
 })
 
+//Discord
 $("#discord").on("mouseenter", function() {
     $(this).attr("src", "images/discordHover.png");
 })
